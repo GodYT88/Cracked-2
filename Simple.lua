@@ -1,4 +1,4 @@
-local library = require(game:HttpGet("https://raw.githubusercontent.com/GodYT88/Cracked-2/main/Visualise_UI_Library.lua"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GodYT88/Cracked-2/main/Visualise_UI_Library.lua"))()
 
 local main = library.CreateMain()
 local tab = main.CreateTab({ name = "Rage", icon = 14478582742 })
